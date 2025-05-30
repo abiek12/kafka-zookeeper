@@ -1,0 +1,24 @@
+{
+  "name": "kafka-tuto",
+  "version": "1.0.0",
+  "description": "Kafka practice",
+  "homepage": "https://github.com/abiek12/kafka-zookeeper#readme",
+  "bugs": {
+    "url": "https://github.com/abiek12/kafka-zookeeper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abiek12/kafka-zookeeper.git"
+  },
+  "license": "ISC",
+  "author": "Abhishek",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "kafkajs": "^2.2.4"
+  }
+}
