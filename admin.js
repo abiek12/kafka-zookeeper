@@ -1,7 +1,7 @@
-const { Kafka } = require('./client');
+const { kafka } = require('./client');
 
 async function init() {
-    const admin = Kafka.admin();
+    const admin = kafka.admin();
     console.log('Connecting to Kafka...');
     await admin.connect();
     console.log('Connected to Kafka');
