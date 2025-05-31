@@ -18,6 +18,8 @@ async function consumeMessages() {
             // Here you can process the message further if needed
         },
     });
+
+    console.log("Consumer is running and listening for messages...");
 }
 
 consumeMessages().catch(console.error);
